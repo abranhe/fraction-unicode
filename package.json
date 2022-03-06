@@ -1,6 +1,6 @@
 {
   "name": "fraction-unicode",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "String representation of a number in fractional form",
   "main": "dist/index.js",
   "license": "MIT",
