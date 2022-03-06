@@ -1,0 +1,18 @@
+name: build
+on: [push]
+
+jobs:
+  test:
+    name: Node.js ${{ matrix.node_version }}
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node_version: [14, 16]
+
+    steps:
+      - uses: actions/checkout@master
+      - uses: actions/setup-node@v1
+        with:
+          version: ${{ matrix.node_version }}
+      - name: Test
+        run: yarn && yarn test
