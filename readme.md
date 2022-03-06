@@ -21,7 +21,7 @@ fractionUnicode(1, 2);
 // '½'
 
 fractionUnicode(7, 16);
-// '⁷⁄₁₆'
+// '⁷⁄₁₃'
 ```
 
 ## License
