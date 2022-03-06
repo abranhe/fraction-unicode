@@ -20,7 +20,7 @@ import fractionUnicode from 'fraction-unicode';
 fractionUnicode(1, 2);
 // '½'
 
-fractionUnicode(7, 16);
+fractionUnicode(7, 13);
 // '⁷⁄₁₃'
 ```
 
