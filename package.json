@@ -14,6 +14,12 @@
   "files": [
     "dist/*"
   ],
+  "keywords": [
+    "fraction",
+    "number",
+    "string",
+    "unicode"
+  ],
   "author": {
     "name": "Abraham Hernandez",
     "email": "abraham@abranhe.com",
